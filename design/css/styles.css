@@ -1,0 +1,106 @@
+body{
+  background-color: hsl(229, 57%, 11%);
+  margin: 0;
+}
+
+p{
+  color: white;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.background{
+  width: 100%;
+  position: absolute;
+  bottom:0;
+}
+
+.banner1{
+  background-color: hsl(228, 56%, 26%);
+  display: inline-block;
+  width: 20.5rem;
+  height: 11.7rem;
+  border-radius: 13px 100px 13px 13px;
+  position: absolute;
+  top: 36%;
+  left: 18%;
+  Box-shadow:0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.banner2{
+  background-color: hsl(228, 56%, 26%);
+  display: inline-block;
+  width: 30rem;
+  height: 9rem;
+  border-radius: 13px 13px 13px 13px;
+  position: absolute;
+  top: 42%;
+  left: 48%;
+  Box-shadow:0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.fylo{
+  position: absolute;
+  display: inline-block;
+  left: 1.9rem;
+  top: 1.9rem;
+  padding: 0.5rem;
+
+}
+
+.doc{
+  position: absolute;
+  top: 6.5rem;
+  left: 2.4rem;
+  background-color: hsl(229, 57%, 11%);
+  display: inline-block;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 10px;
+}
+
+.doc-icon{
+  position: absolute;
+  top: 0.62rem;
+  left: 0.80rem;
+}
+
+.folder{
+  position: absolute;
+  top: 6.5rem;
+  left: 6rem;
+  background-color: hsl(229, 57%, 11%);
+  display: inline-block;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 10px;
+}
+
+.folder-icon{
+  position: absolute;
+  top: 0.7rem;
+  left: 0.60rem;
+}
+
+.upload{
+  position: absolute;
+  top: 6.5rem;
+  left: 9.6rem;
+  background-color: hsl(229, 57%, 11%);
+  display: inline-block;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 10px;
+}
+
+.upload-icon{
+  position: absolute;
+  top: 0.8rem;
+  left: 0.60rem;
+}
+
+.top-text{
+  position: absolute;
+  top: 1.5rem;
+  left: 1.7rem;
+}
