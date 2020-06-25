@@ -23,7 +23,7 @@ p{
   border-radius: 13px 100px 13px 13px;
   position: absolute;
   top: 36%;
-  left: 18%;
+  left: 20%;
   Box-shadow:0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.23);
 }
 
@@ -35,7 +35,7 @@ p{
   border-radius: 13px 13px 13px 13px;
   position: absolute;
   top: 42%;
-  left: 48%;
+  left: 43%;
   Box-shadow:0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.23);
 }
 
@@ -103,4 +103,90 @@ p{
   position: absolute;
   top: 1.5rem;
   left: 1.7rem;
+}
+
+.slider {
+  display: inline-block;
+  height: 0.5rem;
+  width: 20.375rem;
+  border-radius: 10px;
+  background: linear-gradient(to right, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 100%);
+  position: absolute;
+  top: 4.5rem;
+  left: 2.05rem;
+}
+
+.slider-background{
+  display: inline-block;
+  height: 0.9rem;
+  width: 25rem;
+  border-radius: 10px;
+  background-color: hsl(229, 57%, 11%);
+  position: absolute;
+  top: 4.3rem;
+  left: 1.83rem;
+}
+
+.knob{
+  display: inline-block;
+  position: absolute;
+  border-radius: 100%;
+  background-color: white;
+  height: 0.36rem;
+  width: 0.36rem;
+  top: 4.565rem;
+  left: 21.97rem;
+}
+
+.sl-text1{
+  position: absolute;
+  top: 4.9rem;
+  left: 1.8rem;
+}
+
+.sl-text2{
+  position: absolute;
+  top: 4.9rem;
+  left: 23.3rem;
+}
+
+
+
+.rectangle{
+  background-color: white;
+  position: absolute;
+  width: 9rem;
+  height: 3.8rem;
+  border-radius: 10px;
+  top: -2rem;
+  left: 18.9rem;
+}
+
+.percentage-text{
+  color: black;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 700;
+  bottom: -1rem;
+  left: 1.6rem;
+}
+
+.gray-text{
+  color: hsl(229, 7%, 55%);
+  weight: 700;
+  position: absolute;
+  left: 5.2rem;
+  top: 0.8rem;
+  font-size: 11px;
+}
+
+.triangle{
+  position: absolute;
+  width: 0rem;
+  height: 0rem;
+  left: 25.9rem;
+  border-top: 2rem solid transparent;
+  border-right: 2rem solid white;
+  border-bottom: 2rem solid transparent;
+  top: -1rem;
 }
